@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad_background"
+    android:layout_marginTop="1dp"
+    android:padding="10dp"
+    tools:context=".ContentActivity"
+    >
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="370dp"
+        android:layout_height="680dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:ems="10"
+        android:text="TOURista is an app developed by our team to facilitate the travel experience of our customers. Explore the world with technology powered by Google Maps using smart algorithms exclusively designed to maximise the customer's picnic experience.
+We would like to thank each and every member of this team who have stood by us right from start in this incredible journey.
+Thank You....!"
+        android:textAlignment="gravity"
+        android:textColor="#141414"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>

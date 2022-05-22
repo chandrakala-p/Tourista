@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MajorActivity">
+
+    <TextView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Explore"
+        android:drawableLeft="@drawable/explore"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/currentloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Fences"
+        android:drawableLeft="@drawable/fences"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Content"
+        android:drawableLeft="@drawable/content"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/whatsnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Updates"
+        android:drawableLeft="@drawable/updates"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Gallery"
+        android:drawableLeft="@drawable/image"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  Settings"
+        android:drawableLeft="@drawable/settings"
+        android:textColor="#141414"
+        android:textStyle="bold|italic"
+
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="  About us"
+        android:textStyle="bold|italic"
+        android:drawableLeft="@drawable/about"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="40sp" />
+
+
+</LinearLayout>
